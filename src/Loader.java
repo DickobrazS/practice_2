@@ -11,6 +11,10 @@ public class Loader {
         b.radius =2.4f;
         b.type="Baseball";
 
+        System.out.println(b);
+        System.out.println();
+        System.out.println(a);
+
 
     }
 }
