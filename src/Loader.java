@@ -2,14 +2,14 @@ public class Loader {
     public static void main(String[] arg)
     {
         ball1 a=new ball1();
-        a.color="Blue";
-        a.radius=5.4f;
-        a.type = "Football";
+        a.setColor("Blue");
+        a.setRadius(5.4f);
+        a.setType("Football");
 
         ball1 b =new ball1();
-        b.color="Red";
-        b.radius =2.4f;
-        b.type="Baseball";
+        b.setColor("Red");
+        b.setRadius(2.4f);
+        b.setType("Baseball");
 
         System.out.println(b);
         System.out.println();
